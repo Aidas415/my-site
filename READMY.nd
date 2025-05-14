@@ -15,14 +15,14 @@ This project is for educational porpuses only, Pull rquest are welcome, but prio
 
 site published at :  https://aidas415.github.io/my-site/
 
-design: ![😟](./img/original-desine.png/)
+design: ![😟](./original-desine.png/)
 
 ## 🎯 Project features/goals
 
 -   Github pages
--   no responsive design
+-   responsive design
 -   CSS file
--   FontAwesome icons
+-   no FontAwesome icons
 -   display: flex
 -   favicon
 -   hover state
