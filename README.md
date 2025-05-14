@@ -15,7 +15,7 @@ This project is for educational porpuses only, Pull rquest are welcome, but prio
 
 site published at :  https://aidas415.github.io/my-site/
 
-design: ![😟](../img/original-desine.png/)
+design: ![😟](./img/original-desine.png/)
 
 ## 🎯 Project features/goals
 
