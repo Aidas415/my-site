@@ -58,31 +58,26 @@ body {
 }
 
 .button {
-    width: 13%;
-    height: 6vh;
+    width: 15%;
+    height: 6.6vh;
     font-size: 1.2em;
     border-radius: 5px;
     background-color: rgba(0, 0, 255, 0.932);
     color: white;
 }
 
-.nav-row {
+.button-row {
     display: flex;
+    width: 100%;
     justify-content: center;
-    padding: 6vh;
-    gap: 50px;
+    padding: 6vh 0;
+    gap: 10vh;
 }
 
-.nav-row a {
-    height: 6.6vh;
-    padding: 20px 80px;
+.button-row button {
     border: 2px solid blue;
-    border-radius: 5px;  
-}
-
-.bottom {  
-    font-size: 1.2em;
-    text-decoration: none;
+    background-color: white;
+    color: blue;
 }
 
 .copyright {
@@ -103,37 +98,44 @@ body {
     background-color: black;
  }
 
-@media (max-width: 1100px) {
-    .nav-row {
-        gap: 20px;
+ @media (max-width: 1100px) {
+    .button-row button {
+        width: 30%;
     }
-}
+ }
 
-@media (max-width: 1000px) {
-    .nav-row {
-        gap: 1px;
+@media (max-width: 750px) {
+    .name {
+        font-size: 4em;
     }
-}
 
-@media (max-width: 910px) {
-    .nav-row {
-        justify-content: space-evenly;
-        padding-top: 1.8vh;
+    .description {
+        font-size: 2em;
     }
-    .naw-row a {
+
+    .button {
+        width: 42%;
+    }
+    .button-row {
         flex-wrap: wrap;
-        padding: 20px 130px;
     }
 }
 
+@media (max-width: 610px) {
+    .name {
+        font-size: 3.2em;
+    }
+    .description {
+        font-size: 1.8em;
+    }
+}
 
-
-
-
-
-
-
-
-
-
+@media (max-width: 490px) {
+    .button {
+        width: 50%;
+    }
+    .button-row button {
+        width: 96%;
+    }
+}
 
